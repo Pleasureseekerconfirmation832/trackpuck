@@ -1,6 +1,6 @@
 # Trackpuck
 
-A 6 DoF peripheral fo CAD input.
+6 DoF input peripheral made for CAD.
 
 <img src="./imgs/w1.png" width="66%">
 
