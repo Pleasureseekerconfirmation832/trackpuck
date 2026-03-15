@@ -71,7 +71,7 @@ The ZMK firmware config repository can be find at [here](https://github.com/badj
 
 ### Related Projects
 
-- [TrackpuckTools](https://github.com/badjeff/TrackpuckTools-Fusion360) is a Fusion 360 add-in that connects HID-based 6DoF input peripheral devices as navigation input for Fusion 360, providing fluid control over camera orbit, pan, zoom, and rotation.
+- [TrackpuckTools-Fusion360](https://github.com/badjeff/TrackpuckTools-Fusion360) is a Fusion 360 add-in that connects HID-based 6DoF input peripheral devices as navigation input for Fusion 360, providing fluid control over camera orbit, pan, zoom, and rotation.
 
 - [Magnetometers tracking simulator web app](https://sim7dof4ve.vercel.app/) will show how this all thigs works.
 
